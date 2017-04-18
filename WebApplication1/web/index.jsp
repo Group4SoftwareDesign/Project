@@ -508,14 +508,23 @@
 
 
 
-    <div id="search">
-        <button type="button" class="close">×</button>
-        <form>
-            <input type="search" value="" placeholder="type keyword(s) here" />
-            <button type="submit" class="btn btn-primary">Search</button>
-        </form>
-    </div>
+    <div class="modal fade" id="search" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
 
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Search Students</h4>
+
+                    <input type="text" name="search" placeholder="Search..">
+                    <br><br>
+                    <input type="submit" name="submit" value="Submit" />
+                    
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Call to Action -->
