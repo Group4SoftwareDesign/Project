@@ -250,3 +250,12 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+
+.available {
+    background-color: lightgreen;
+}
+
+.notAvailable {
+    background-color: lightcoral;
+}

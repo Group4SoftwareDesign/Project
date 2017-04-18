@@ -77,7 +77,7 @@
                         <p>
                             Nulla ante eros, dictum eget finibus sed, tristique nec ligula. Aenean viverra tortor massa, sit amet pharetra ante cursus at. Nulla aliquam tempor libero ut consequat. Aliquam dui velit, dapibus eu urna ac, convallis lobortis elit. Praesent semper fringilla diam, vitae dignissim nisi lobortis quis. Fusce ac magna orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus quis velit elit. Vivamus scelerisque ut mi ac auctor. Integer semper consequat nunc, non tincidunt ante accumsan ut. Sed laoreet pellentesque orci. Integer libero augue, feugiat porttitor lectus id, dapibus accumsan velit.
                             <br><br>
-                            <img src="img/logo.jpg" class="img-circle" alt="Myself" width="304" height="236"> 
+                            <img src="img/logo.jpg" class="img-circle" alt="Myself" width="304" height="236">
                     </div>
                     </p>
                 </div>
@@ -150,6 +150,144 @@
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2>Schedule</h2>
+
+                    <div class="container">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Times</th>
+                                    <th>Monday</th>
+                                    <th>Tuesday</th>
+                                    <th>Wednesday</th>
+                                    <th>Thursday</th>
+                                    <th>Friday</th>
+                                    <th>Saturday</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>9:30-10:00 (am)</td>
+                                    <td class="bg-danger"> Not Available </td>
+                                   <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-success"> Available </td>
+                            
+                                </tr>
+                                <tr>
+                                    <td>10:00-10:30 (am)</td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                   <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                   <td class="bg-danger"> </td>
+                                    <td class="bg-success"> </td>
+
+                                </tr>
+                                <tr>
+                                    <td>10:30-11:00 (am)</td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>11:00-11:30 (am)</td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-success"> </td>
+                                </tr>
+                                <tr>
+                                    <td>3:30-4:00 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>4:00-4:30 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>4:30-5:00 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>5:00-5:30 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>5:30-6:00 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>6:00-6:30 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>6:30-7:00 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>7:00-7:30 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                                <tr>
+                                    <td>7:30-8:00 (pm)</td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-success"> </td>
+                                    <td class="bg-danger"> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
                     <!-- /.row (nested) -->
                     <a href="#" class="btn btn-dark">View More Items</a>
@@ -225,76 +363,76 @@
 
     <!-- Custom Theme JavaScript -->
     <script>
-                    // Closes the sidebar menu
-                    $("#menu-close").click(function (e) {
-                        e.preventDefault();
-                        $("#sidebar-wrapper").toggleClass("active");
-                    });
-                    // Opens the sidebar menu
-                    $("#menu-toggle").click(function (e) {
-                        e.preventDefault();
-                        $("#sidebar-wrapper").toggleClass("active");
-                    });
-                    // Scrolls to the selected menu item on the page
-                    $(function () {
-                        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
-                            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                                var target = $(this.hash);
-                                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                                if (target.length) {
-                                    $('html,body').animate({
-                                        scrollTop: target.offset().top
-                                    }, 1000);
-                                    return false;
+                        // Closes the sidebar menu
+                        $("#menu-close").click(function (e) {
+                            e.preventDefault();
+                            $("#sidebar-wrapper").toggleClass("active");
+                        });
+                        // Opens the sidebar menu
+                        $("#menu-toggle").click(function (e) {
+                            e.preventDefault();
+                            $("#sidebar-wrapper").toggleClass("active");
+                        });
+                        // Scrolls to the selected menu item on the page
+                        $(function () {
+                            $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
+                                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                                    var target = $(this.hash);
+                                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                                    if (target.length) {
+                                        $('html,body').animate({
+                                            scrollTop: target.offset().top
+                                        }, 1000);
+                                        return false;
+                                    }
+                                }
+                            });
+                        });
+                        //#to-top button appears after scrolling
+                        var fixed = false;
+                        $(document).scroll(function () {
+                            if ($(this).scrollTop() > 250) {
+                                if (!fixed) {
+                                    fixed = true;
+                                    // $('#to-top').css({position:'fixed', display:'block'});
+                                    $('#to-top').show("slow", function () {
+                                        $('#to-top').css({
+                                            position: 'fixed',
+                                            display: 'block'
+                                        });
+                                    });
+                                }
+                            } else {
+                                if (fixed) {
+                                    fixed = false;
+                                    $('#to-top').hide("slow", function () {
+                                        $('#to-top').css({
+                                            display: 'none'
+                                        });
+                                    });
                                 }
                             }
                         });
-                    });
-                    //#to-top button appears after scrolling
-                    var fixed = false;
-                    $(document).scroll(function () {
-                        if ($(this).scrollTop() > 250) {
-                            if (!fixed) {
-                                fixed = true;
-                                // $('#to-top').css({position:'fixed', display:'block'});
-                                $('#to-top').show("slow", function () {
-                                    $('#to-top').css({
-                                        position: 'fixed',
-                                        display: 'block'
-                                    });
-                                });
-                            }
-                        } else {
-                            if (fixed) {
-                                fixed = false;
-                                $('#to-top').hide("slow", function () {
-                                    $('#to-top').css({
-                                        display: 'none'
-                                    });
-                                });
-                            }
+                        // Disable Google Maps scrolling
+                        // See http://stackoverflow.com/a/25904582/1607849
+                        // Disable scroll zooming and bind back the click event
+                        var onMapMouseleaveHandler = function (event) {
+                            var that = $(this);
+                            that.on('click', onMapClickHandler);
+                            that.off('mouseleave', onMapMouseleaveHandler);
+                            that.find('iframe').css("pointer-events", "none");
                         }
-                    });
-                    // Disable Google Maps scrolling
-                    // See http://stackoverflow.com/a/25904582/1607849
-                    // Disable scroll zooming and bind back the click event
-                    var onMapMouseleaveHandler = function (event) {
-                        var that = $(this);
-                        that.on('click', onMapClickHandler);
-                        that.off('mouseleave', onMapMouseleaveHandler);
-                        that.find('iframe').css("pointer-events", "none");
-                    }
-                    var onMapClickHandler = function (event) {
-                        var that = $(this);
-                        // Disable the click handler until the user leaves the map area
-                        that.off('click', onMapClickHandler);
-                        // Enable scrolling zoom
-                        that.find('iframe').css("pointer-events", "auto");
-                        // Handle the mouse leave event
-                        that.on('mouseleave', onMapMouseleaveHandler);
-                    }
-                    // Enable map zooming with mouse scroll when the user clicks the map
-                    $('.map').on('click', onMapClickHandler);
+                        var onMapClickHandler = function (event) {
+                            var that = $(this);
+                            // Disable the click handler until the user leaves the map area
+                            that.off('click', onMapClickHandler);
+                            // Enable scrolling zoom
+                            that.find('iframe').css("pointer-events", "auto");
+                            // Handle the mouse leave event
+                            that.on('mouseleave', onMapMouseleaveHandler);
+                        }
+                        // Enable map zooming with mouse scroll when the user clicks the map
+                        $('.map').on('click', onMapClickHandler);
     </script>
 
 </body>
