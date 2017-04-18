@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author Evan Stimmel
+ * @author Evan Stimmel group 4
  */
 public class student {
     
