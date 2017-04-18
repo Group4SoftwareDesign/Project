@@ -520,6 +520,7 @@
                     <input type="text" name="search" placeholder="Search..">
                     <br><br>
                     <input type="submit" name="submit" value="Submit" />
+                    
                 </div>
             </div>
         </div>
