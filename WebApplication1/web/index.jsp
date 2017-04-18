@@ -106,7 +106,7 @@
                                     <strong>Piano</strong>
                                 </h4>
                                 <p>I offer piano lessons for...etc.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#costs" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
                         <div class="col-md-6 col-sd-3">
@@ -119,7 +119,7 @@
                                     <strong>Voice</strong>
                                 </h4>
                                 <p>I offer voice lessons for... etc.</p>
-                                <a href="#" class="btn btn-light">Learn More</a>
+                                <a href="#costs" class="btn btn-light">Learn More</a>
                             </div>
                         </div>
 
@@ -134,6 +134,7 @@
     </section>
 
     <!-- Callout -->
+    <section id="costs" class="costs">
     <aside class="callout">
         <div class="text-vertical-center">
             <h1>Lesson Costs:</h1>
@@ -143,6 +144,7 @@
             <h2>Voice: $25/hr</h2>
         </div>
     </aside>
+    </section>
 
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
