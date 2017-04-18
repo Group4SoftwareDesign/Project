@@ -71,228 +71,232 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2>All About Me!</h2>
-                        <p> Example text here.
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vitae ex sit amet lacus mollis mattis. Donec interdum egestas lacus nec scelerisque. Mauris mollis urna nec metus ullamcorper sagittis. Nam lorem metus, cursus ac ex eget, malesuada vehicula nisi. In libero lorem, imperdiet a quam a, maximus posuere nibh. Morbi mattis ultricies metus, vel maximus ipsum euismod in. Nam tortor nisl, porta vitae fringilla gravida, consequat sit amet lectus. Proin eget eros varius, iaculis orci vitae, venenatis turpis.
+                        </p>
+                        <br><br>
+                        <p>
+                            Nulla ante eros, dictum eget finibus sed, tristique nec ligula. Aenean viverra tortor massa, sit amet pharetra ante cursus at. Nulla aliquam tempor libero ut consequat. Aliquam dui velit, dapibus eu urna ac, convallis lobortis elit. Praesent semper fringilla diam, vitae dignissim nisi lobortis quis. Fusce ac magna orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus quis velit elit. Vivamus scelerisque ut mi ac auctor. Integer semper consequat nunc, non tincidunt ante accumsan ut. Sed laoreet pellentesque orci. Integer libero augue, feugiat porttitor lectus id, dapibus accumsan velit.
                             <br><br>
                             <img src="img/logo.jpg" class="img-circle" alt="Myself" width="304" height="236"> 
-                        </div>
-                            </p>
-                        </div>
                     </div>
-                    <!-- /.row -->
+                    </p>
                 </div>
-                <!-- /.container -->
-        </section>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
-        <!-- Services -->
-        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-        <section id="services" class="services bg-primary">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <h2>My Services</h2>
-                        <hr class="small">
-                        <div class="row">
-                            <div class="col-md-6 col-sd-3">
-                                <div class="service-item">
-                                    <span class="fa-stack fa-4x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-music fa-stack-1x text-primary"></i>
-                                    </span>
-                                    <h4>
-                                        <strong>Piano</strong>
-                                    </h4>
-                                    <p>I offer piano lessons for...etc.</p>
-                                    <a href="#" class="btn btn-light">Learn More</a>
-                                </div>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>My Services</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6 col-sd-3">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-music fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Piano</strong>
+                                </h4>
+                                <p>I offer piano lessons for...etc.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
                             </div>
-                            <div class="col-md-6 col-sd-3">
-                                <div class="service-item">
-                                    <span class="fa-stack fa-4x">
-                                        <i class="fa fa-circle fa-stack-2x"></i>
-                                        <i class="fa fa-microphone fa-stack-1x text-primary"></i>
-                                    </span>
-                                    <h4>
-                                        <strong>Voice</strong>
-                                    </h4>
-                                    <p>I offer voice lessons for... etc.</p>
-                                    <a href="#" class="btn btn-light">Learn More</a>
-                                </div>
-                            </div>
-                            
                         </div>
-                        <!-- /.row (nested) -->
+                        <div class="col-md-6 col-sd-3">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-microphone fa-stack-1x text-primary"></i>
+                                </span>
+                                <h4>
+                                    <strong>Voice</strong>
+                                </h4>
+                                <p>I offer voice lessons for... etc.</p>
+                                <a href="#" class="btn btn-light">Learn More</a>
+                            </div>
+                        </div>
+
                     </div>
-                    <!-- /.col-lg-10 -->
+                    <!-- /.row (nested) -->
                 </div>
-                <!-- /.row -->
+                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.container -->
-        </section>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
-        <!-- Callout -->
-        <aside class="callout">
-            <div class="text-vertical-center">
-                <h1>Lesson Costs:</h1>
-                <br>
-                <h2>Piano: $20/hr</h2>
-                <br>
-                <h2>Voice: $25/hr</h2>
-            </div>
-        </aside>
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1>Lesson Costs:</h1>
+            <br>
+            <h2>Piano: $20/hr</h2>
+            <br>
+            <h2>Voice: $25/hr</h2>
+        </div>
+    </aside>
 
-        <!-- Portfolio -->
-        <section id="portfolio" class="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h2>Schedule</h2>
-                        
-                        <!-- /.row (nested) -->
-                        <a href="#" class="btn btn-dark">View More Items</a>
-                    </div>
-                    <!-- /.col-lg-10 -->
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Schedule</h2>
+
+                    <!-- /.row (nested) -->
+                    <a href="#" class="btn btn-dark">View More Items</a>
                 </div>
-                <!-- /.row -->
+                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.container -->
-        </section>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
-        <!-- Call to Action -->
-        <aside class="call-to-action bg-primary">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3>The buttons below are impossible to resist.</h3>
-                        <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                    </div>
-                </div>
-            </div>
-        </aside>
-
-        <!-- Map -->
-        <section id="contact" class="map">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
-            <br />
-            <small>
-                <a href="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></a>
-            </small>
-        </section>
-
-        <!-- Footer -->
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1 text-center">
-                        <h4><strong>The University of Iowa</strong>
-                        </h4>
-                        <p>21 E Market St
-                            <br>Iowa City, IA 52242</p>
-                        <ul class="list-unstyled">
-                            <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                            </li>
-                        </ul>
-                        <br>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                            </li>
-                        </ul>
-                        <hr class="small">
-                        <p class="text-muted">Copyright &copy; Your Website 2014</p>
-                    </div>
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
                 </div>
             </div>
-            <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-        </footer>
+        </div>
+    </aside>
 
-        <!-- jQuery -->
-        <script src="js/jquery.js"></script>
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></a>
+        </small>
+    </section>
 
-        <!-- Bootstrap Core JavaScript -->
-        <script src="js/bootstrap.min.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>The University of Iowa</strong>
+                    </h4>
+                    <p>21 E Market St
+                        <br>Iowa City, IA 52242</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
 
-        <!-- Custom Theme JavaScript -->
-        <script>
-                        // Closes the sidebar menu
-                        $("#menu-close").click(function (e) {
-                            e.preventDefault();
-                            $("#sidebar-wrapper").toggleClass("active");
-                        });
-                        // Opens the sidebar menu
-                        $("#menu-toggle").click(function (e) {
-                            e.preventDefault();
-                            $("#sidebar-wrapper").toggleClass("active");
-                        });
-                        // Scrolls to the selected menu item on the page
-                        $(function () {
-                            $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
-                                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                                    var target = $(this.hash);
-                                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                                    if (target.length) {
-                                        $('html,body').animate({
-                                            scrollTop: target.offset().top
-                                        }, 1000);
-                                        return false;
-                                    }
-                                }
-                            });
-                        });
-                        //#to-top button appears after scrolling
-                        var fixed = false;
-                        $(document).scroll(function () {
-                            if ($(this).scrollTop() > 250) {
-                                if (!fixed) {
-                                    fixed = true;
-                                    // $('#to-top').css({position:'fixed', display:'block'});
-                                    $('#to-top').show("slow", function () {
-                                        $('#to-top').css({
-                                            position: 'fixed',
-                                            display: 'block'
-                                        });
-                                    });
-                                }
-                            } else {
-                                if (fixed) {
-                                    fixed = false;
-                                    $('#to-top').hide("slow", function () {
-                                        $('#to-top').css({
-                                            display: 'none'
-                                        });
-                                    });
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+                    // Closes the sidebar menu
+                    $("#menu-close").click(function (e) {
+                        e.preventDefault();
+                        $("#sidebar-wrapper").toggleClass("active");
+                    });
+                    // Opens the sidebar menu
+                    $("#menu-toggle").click(function (e) {
+                        e.preventDefault();
+                        $("#sidebar-wrapper").toggleClass("active");
+                    });
+                    // Scrolls to the selected menu item on the page
+                    $(function () {
+                        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function () {
+                            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                                var target = $(this.hash);
+                                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                                if (target.length) {
+                                    $('html,body').animate({
+                                        scrollTop: target.offset().top
+                                    }, 1000);
+                                    return false;
                                 }
                             }
                         });
-                        // Disable Google Maps scrolling
-                        // See http://stackoverflow.com/a/25904582/1607849
-                        // Disable scroll zooming and bind back the click event
-                        var onMapMouseleaveHandler = function (event) {
-                            var that = $(this);
-                            that.on('click', onMapClickHandler);
-                            that.off('mouseleave', onMapMouseleaveHandler);
-                            that.find('iframe').css("pointer-events", "none");
+                    });
+                    //#to-top button appears after scrolling
+                    var fixed = false;
+                    $(document).scroll(function () {
+                        if ($(this).scrollTop() > 250) {
+                            if (!fixed) {
+                                fixed = true;
+                                // $('#to-top').css({position:'fixed', display:'block'});
+                                $('#to-top').show("slow", function () {
+                                    $('#to-top').css({
+                                        position: 'fixed',
+                                        display: 'block'
+                                    });
+                                });
+                            }
+                        } else {
+                            if (fixed) {
+                                fixed = false;
+                                $('#to-top').hide("slow", function () {
+                                    $('#to-top').css({
+                                        display: 'none'
+                                    });
+                                });
+                            }
                         }
-                        var onMapClickHandler = function (event) {
-                            var that = $(this);
-                            // Disable the click handler until the user leaves the map area
-                            that.off('click', onMapClickHandler);
-                            // Enable scrolling zoom
-                            that.find('iframe').css("pointer-events", "auto");
-                            // Handle the mouse leave event
-                            that.on('mouseleave', onMapMouseleaveHandler);
-                        }
-                        // Enable map zooming with mouse scroll when the user clicks the map
-                        $('.map').on('click', onMapClickHandler);
-        </script>
+                    });
+                    // Disable Google Maps scrolling
+                    // See http://stackoverflow.com/a/25904582/1607849
+                    // Disable scroll zooming and bind back the click event
+                    var onMapMouseleaveHandler = function (event) {
+                        var that = $(this);
+                        that.on('click', onMapClickHandler);
+                        that.off('mouseleave', onMapMouseleaveHandler);
+                        that.find('iframe').css("pointer-events", "none");
+                    }
+                    var onMapClickHandler = function (event) {
+                        var that = $(this);
+                        // Disable the click handler until the user leaves the map area
+                        that.off('click', onMapClickHandler);
+                        // Enable scrolling zoom
+                        that.find('iframe').css("pointer-events", "auto");
+                        // Handle the mouse leave event
+                        that.on('mouseleave', onMapMouseleaveHandler);
+                    }
+                    // Enable map zooming with mouse scroll when the user clicks the map
+                    $('.map').on('click', onMapClickHandler);
+    </script>
 
-    </body>
+</body>
 
 </html>
