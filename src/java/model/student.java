@@ -17,7 +17,7 @@ public class student {
     private String City;
     private String State;
     private int ZipCode;
-    private int PhoneNum;
+    private String PhoneNum;
     private String Email;
     private String VoiceOrPiano;
     private String Gender;
@@ -30,12 +30,12 @@ public class student {
         this.City = "";
         this.State = "";
         this.ZipCode = 0;
-        this.PhoneNum = 0;
+        this.PhoneNum = "";
         this.Email = "";
         this.VoiceOrPiano = "";
         this.Gender = "";
      }  
-    public student(int StudentID, String Name, String Address, String City, String State, int ZipCode, int PhoneNum, String Email, String VoiceOrPiano, String Gender) {
+    public student(int StudentID, String Name, String Address, String City, String State, int ZipCode, String PhoneNum, String Email, String VoiceOrPiano, String Gender) {
         this.StudentID = StudentID;
         this.Name = Name;
         this.Address = Address;
@@ -101,11 +101,11 @@ public class student {
         this.ZipCode = ZipCode;
     }
 
-    public int getPhoneNum() {
+    public String getPhoneNum() {
         return PhoneNum;
     }
 
-    public void setPhoneNum(int PhoneNum) {
+    public void setPhoneNum(String PhoneNum) {
         this.PhoneNum = PhoneNum;
     }
 

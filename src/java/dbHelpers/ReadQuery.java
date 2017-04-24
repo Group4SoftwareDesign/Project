@@ -54,7 +54,7 @@ public ReadQuery(){
 public void doRead(){
         
         try {
-            String query = "Select * from student";
+            String query = "Select * from Student;";
             
             PreparedStatement ps = conn.prepareStatement(query);
             this.results = ps.executeQuery();
@@ -82,7 +82,7 @@ public String getHTMLtable(){
                 student.setCity(this.results.getString("City"));
                 student.setState(this.results.getString("State"));
                 student.setZipCode(this.results.getInt("ZipCode"));
-                student.setPhoneNum(this.results.getInt("PhoneNum"));
+                student.setPhoneNum(this.results.getString("PhoneNum")); //change to String
                 student.setEmail(this.results.getString("Email"));
                 student.setVoiceOrPiano(this.results.getString("VoiceOrPiano"));
                 student.setGender(this.results.getString("Gender"));
