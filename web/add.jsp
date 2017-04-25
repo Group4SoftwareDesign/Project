@@ -44,22 +44,22 @@
                     <label>Student Type:</label>
                     <br>
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" ">
+                        <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value="V">
                         V
                     </label>
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" ">
+                        <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value="P">
                         P
                     </label>
                 </div>
                 <br>
                 <div class="form-group">
                     <label for="level">Student Level</label>
-                    <select class="form-control" id="level" value=" ">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
+                    <select class="form-control" name="level">
+                        <option value = "1">1</option>
+                        <option value = "2">2</option>
+                        <option value = "3">3</option>
+                        <option value = "4">4</option>
                     </select>
                 </div>
                 <br>
@@ -67,11 +67,11 @@
                     <label>Gender:</label>
                     <br>
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
+                        <input type="radio" class="form-check-input" name="gender" id="gender" value="M">
                         M
                     </label>
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
+                        <input type="radio" class="form-check-input" name="gender" id="gender" value="F">
                         F
                     </label>
                 </div>
