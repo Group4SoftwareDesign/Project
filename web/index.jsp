@@ -294,6 +294,7 @@
                     <br><br><br>
                     <h2>Teacher Options</h2>
                     <!-- button to trigger add -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#view">View Students</button>
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#add">Add Student</button>
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#update">Update Student</button>
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#search">Search Student</button>
@@ -407,7 +408,7 @@
 
 
 
-
+    <!-- update modal -->
     <div class="modal fade" id="update" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -507,7 +508,7 @@
     </div>
 
 
-
+    <!-- search modal -->
     <div class="modal fade" id="search" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -525,6 +526,26 @@
             </div>
         </div>
     </div>
+    
+    <!-- view modal -->
+    <div class="modal fade" id="view" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">View Students</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="main">
+                    <a href="read">View Students</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    
 
 
     <!-- Call to Action -->
