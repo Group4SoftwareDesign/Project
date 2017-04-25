@@ -9,7 +9,7 @@ package model;
  *
  * @author Evan Stimmel group 4
  */
-public class student {
+public class Student {
     
     private int StudentID;
     private String Name;
@@ -20,10 +20,11 @@ public class student {
     private String PhoneNum;
     private String Email;
     private String VoiceOrPiano;
+    private int Level;
     private String Gender;
 
     
-     public student() {
+     public Student() {
         this.StudentID = 0;
         this.Name = "";
         this.Address = "";
@@ -33,9 +34,10 @@ public class student {
         this.PhoneNum = "";
         this.Email = "";
         this.VoiceOrPiano = "";
+        this.Level = 1;
         this.Gender = "";
      }  
-    public student(int StudentID, String Name, String Address, String City, String State, int ZipCode, String PhoneNum, String Email, String VoiceOrPiano, String Gender) {
+    public Student(int StudentID, String Name, String Address, String City, String State, int ZipCode, String PhoneNum, String Email, String VoiceOrPiano,int Level, String Gender) {
         this.StudentID = StudentID;
         this.Name = Name;
         this.Address = Address;
@@ -45,13 +47,15 @@ public class student {
         this.PhoneNum = PhoneNum;
         this.Email = Email;
         this.VoiceOrPiano = VoiceOrPiano;
+        this.Level = Level;
         this.Gender = Gender;
     }
 
     @Override
     public String toString() {
-        return "student{" + "StudentID=" + StudentID + ", Name=" + Name + ", Address=" + Address + ", City=" + City + ", State=" + State + ", ZipCode=" + ZipCode + ", PhoneNum=" + PhoneNum + ", Email=" + Email + ", VoiceOrPiano=" + VoiceOrPiano + ", Gender=" + Gender + '}';
+        return "student{" + "StudentID=" + StudentID + ", Name=" + Name + ", Address=" + Address + ", City=" + City + ", State=" + State + ", ZipCode=" + ZipCode + ", PhoneNum=" + PhoneNum + ", Email=" + Email + ", VoiceOrPiano=" + VoiceOrPiano + ", Level=" + Level + ", Gender=" + Gender + '}';
     }
+
 
     public int getStudentID() {
         return StudentID;
@@ -125,6 +129,14 @@ public class student {
         this.VoiceOrPiano = VoiceOrPiano;
     }
 
+    public int getLevel() {
+        return Level;
+    }
+
+    public void setLevel(int Level) {
+        this.Level = Level;
+    }
+    
     public String getGender() {
         return Gender;
     }

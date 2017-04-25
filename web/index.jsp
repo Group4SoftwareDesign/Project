@@ -319,53 +319,53 @@
                 <div class="modal-body">
                     <p>
                     <div class="main">
-                        <form name="addForm" action="addCar" method="get">
+                        <form name="addForm" action="addStudent" method="get">
 
                             <label>Name:</label>
                             <br>
-                            <input type="text" name="make" value="" />
+                            <input type="text" name="name" value="" />
                             <br>
                             <label>Address:</label>
                             <br>
-                            <input type="text" name="model" value="" />
+                            <input type="text" name="address" value="" />
                             <br>
                             <label>City:</label>
                             <br>
-                            <input type="text" name="color" value="" />
+                            <input type="text" name="city" value="" />
                             <br>
                             <label>State:</label>
                             <br>
-                            <input type="text" name="year" value="" />
+                            <input type="text" name="state" value="" />
                             <br>
                             <label>Zip</label>
                             <br>
-                            <input type="text" name="type" value="" />
+                            <input type="text" name="zip" value="" />
                             <br>
                             <label>Phone:</label>
                             <br>
-                            <input type="text" name="type" value="" />
+                            <input type="text" name="phone" value="" />
                             <br>
                             <label>Email:</label>
                             <br>
-                            <input type="text" name="type" value="" />
+                            <input type="text" name="email" value="" />
                             <br><br>
                             <div class="form-check">
                                 <label>Student Type:</label>
                                 <br>
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="stype" id="stype" value=" " checked>
+                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" " checked>
                                     Voice
                                 </label>
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="stype" id="stype" value=" ">
+                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" ">
                                     Piano
                                 </label>
                             </div>
                             <br>
                             <div class="form-group">
-                                <label for="exampleSelect1">Student Level</label>
+                                <label for="level">Student Level</label>
                                 <select class="form-control" id="level" value=" ">
                                     <option>1</option>
                                     <option>2</option>

@@ -10,7 +10,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import model.student;
+import model.Student;
 
 
 public class ReadQuery {
@@ -75,7 +75,7 @@ public String getHTMLtable(){
         try {
             while(this.results.next()){
                 
-                student student = new student();
+                Student student = new Student();
                 student.setStudentID(this.results.getInt("StudentID"));
                 student.setName(this.results.getString("Name"));
                 student.setAddress(this.results.getString("Address"));
