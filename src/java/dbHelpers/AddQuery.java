@@ -60,7 +60,7 @@ public class AddQuery {
     public void doAdd(Student s){
         
         try {
-            String query = "INSERT INTO Student (Name, Address, City, State, ZipCode, PhoneNum, Email, VoiceOrPiano, Level, Gender) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
+            String query = "INSERT INTO Student (Name, Address, City, State, ZipCode, PhoneNum, Email, VoiceOrPiano, Level, Gender) VALUES (?,?,?,?,?,?,?,?,?,?)";
             
             PreparedStatement ps = conn.prepareStatement(query);
             
@@ -72,7 +72,7 @@ public class AddQuery {
             ps.setString(6,s.getPhoneNum() );
             ps.setString(7,s.getEmail() );
             ps.setString(8,s.getVoiceOrPiano());
-            ps.setInt(9,s.getLevel());
+            ps.setString(9,s.getLevel());
             ps.setString(10,s.getGender());
             
             ps.executeUpdate();

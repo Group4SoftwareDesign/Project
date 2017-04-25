@@ -85,7 +85,7 @@ public class AddServlet extends HttpServlet {
         String phone = request.getParameter("phone");
         String email = request.getParameter("email");
         String voiceOrPiano = request.getParameter("voiceOrPiano");
-        int level = Integer.parseInt(request.getParameter("level"));
+        String level = request.getParameter("level");
         String gender = request.getParameter("gender");
         
         Student s = new Student();

@@ -308,101 +308,21 @@
     </section>
 
     <!-- code for Modal (add) -->
-    <div class="modal fade" id="add" role="dialog">
+   <div class="modal fade" id="add" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
 
 
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Add A Student</h4>
+                    <h4 class="modal-title">Add Students</h4>
                 </div>
                 <div class="modal-body">
-                    <p>
                     <div class="main">
-                        <form name="addForm" action="addStudent" method="get">
-
-                            <label>Name:</label>
-                            <br>
-                            <input type="text" name="name" value="" />
-                            <br>
-                            <label>Address:</label>
-                            <br>
-                            <input type="text" name="address" value="" />
-                            <br>
-                            <label>City:</label>
-                            <br>
-                            <input type="text" name="city" value="" />
-                            <br>
-                            <label>State:</label>
-                            <br>
-                            <input type="text" name="state" value="" />
-                            <br>
-                            <label>Zip</label>
-                            <br>
-                            <input type="text" name="zip" value="" />
-                            <br>
-                            <label>Phone:</label>
-                            <br>
-                            <input type="text" name="phone" value="" />
-                            <br>
-                            <label>Email:</label>
-                            <br>
-                            <input type="text" name="email" value="" />
-                            <br><br>
-                            <div class="form-check">
-                                <label>Student Type:</label>
-                                <br>
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" " checked>
-                                    Voice
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" ">
-                                    Piano
-                                </label>
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <label for="level">Student Level</label>
-                                <select class="form-control" id="level" value=" ">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                </select>
-                            </div>
-                            <br>
-                            <div class="form-check">
-                                <label>Gender:</label>
-                                <br>
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" " checked>
-                                    Male
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
-                                    Female
-                                </label>
-                            </div>
-
-                            <br><br>
-
-                            <input type="reset" name="reset" value="Clear" />
-                            <input type="submit" name="submit" value="Submit" />
-                        </form>
-                    </div> 
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <a href="add.jsp">Add A Student</a>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -456,13 +376,13 @@
                                 <br>
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="stype" id="stype" value=" " checked>
-                                    Voice
+                                    V
                                 </label>
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="stype" id="stype" value=" ">
-                                    Piano
+                                    P
                                 </label>
                             </div>
                             <br>
@@ -481,13 +401,13 @@
                                 <br>
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="gender" id="gender" value=" " checked>
-                                    Male
+                                    M
                                 </label>
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
-                                    Female
+                                    F
                                 </label>
                             </div>
 

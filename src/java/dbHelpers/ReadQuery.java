@@ -88,7 +88,7 @@ public class ReadQuery {
                     s.setPhoneNum(this.results.getString("PhoneNum"));
                     s.setEmail(this.results.getString("Email"));
                     s.setVoiceOrPiano(this.results.getString("VoiceOrPiano"));
-                    s.setLevel(this.results.getInt("Levels"));
+                    s.setLevel(this.results.getString("Levels"));
                     s.setGender(this.results.getString("Gender"));
                     
                     table += "<tr>";

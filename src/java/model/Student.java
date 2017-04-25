@@ -20,7 +20,7 @@ public class Student {
     private String PhoneNum;
     private String Email;
     private String VoiceOrPiano;
-    private int Level;
+    private String Level;
     private String Gender;
 
     
@@ -34,10 +34,10 @@ public class Student {
         this.PhoneNum = "";
         this.Email = "";
         this.VoiceOrPiano = "";
-        this.Level = 0;
+        this.Level = "";
         this.Gender = "";
      }  
-    public Student(int StudentID, String Name, String Address, String City, String State, int ZipCode, String PhoneNum, String Email, String VoiceOrPiano,int Level, String Gender) {
+    public Student(int StudentID, String Name, String Address, String City, String State, int ZipCode, String PhoneNum, String Email, String VoiceOrPiano,String Level, String Gender) {
         this.StudentID = StudentID;
         this.Name = Name;
         this.Address = Address;
@@ -129,11 +129,11 @@ public class Student {
         this.VoiceOrPiano = VoiceOrPiano;
     }
 
-    public int getLevel() {
+    public String getLevel() {
         return Level;
     }
 
-    public void setLevel(int Level) {
+    public void setLevel(String Level) {
         this.Level = Level;
     }
     
