@@ -135,6 +135,7 @@
 
     <!-- Callout -->
     <section id="costs" class="costs">
+<<<<<<< HEAD:WebApplication1/web/index.jsp
     <aside class="callout">
         <div class="text-vertical-center">
             <h1>Lesson Costs:</h1>
@@ -144,6 +145,17 @@
             <h2>Voice: $25/hr</h2>
         </div>
     </aside>
+=======
+        <aside class="callout">
+            <div class="text-vertical-center">
+                <h1>Lesson Costs:</h1>
+                <br>
+                <h2>Piano: $20/hr</h2>
+                <br>
+                <h2>Voice: $25/hr</h2>
+            </div>
+        </aside>
+>>>>>>> 60e7647ce895ace19cee4f8cc5dc5249588f2c1b:web/index.jsp
     </section>
 
     <!-- Portfolio -->
@@ -291,8 +303,13 @@
                         </table>
                     </div>
 
-                    <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <br><br><br>
+                    <h2>Teacher Options</h2>
+                    <!-- button to trigger add -->
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#add">Add Student</button>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#update">Update Student</button>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#search">Search Student</button>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#delete">Delete Student</button>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -300,6 +317,227 @@
         </div>
         <!-- /.container -->
     </section>
+
+    <!-- code for Modal (add) -->
+    <div class="modal fade" id="add" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Add A Student</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    <div class="main">
+                        <form name="addForm" action="addStudent" method="get">
+
+                            <label>Name:</label>
+                            <br>
+                            <input type="text" name="name" value="" />
+                            <br>
+                            <label>Address:</label>
+                            <br>
+                            <input type="text" name="address" value="" />
+                            <br>
+                            <label>City:</label>
+                            <br>
+                            <input type="text" name="city" value="" />
+                            <br>
+                            <label>State:</label>
+                            <br>
+                            <input type="text" name="state" value="" />
+                            <br>
+                            <label>Zip</label>
+                            <br>
+                            <input type="text" name="zip" value="" />
+                            <br>
+                            <label>Phone:</label>
+                            <br>
+                            <input type="text" name="phone" value="" />
+                            <br>
+                            <label>Email:</label>
+                            <br>
+                            <input type="text" name="email" value="" />
+                            <br><br>
+                            <div class="form-check">
+                                <label>Student Type:</label>
+                                <br>
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" " checked>
+                                    Voice
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" ">
+                                    Piano
+                                </label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="level">Student Level</label>
+                                <select class="form-control" id="level" value=" ">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <label>Gender:</label>
+                                <br>
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" " checked>
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
+                                    Female
+                                </label>
+                            </div>
+
+                            <br><br>
+
+                            <input type="reset" name="reset" value="Clear" />
+                            <input type="submit" name="submit" value="Submit" />
+                        </form>
+                    </div> 
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="update" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Update A Student</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    <div class="main">
+                        <form name="addForm" action="addCar" method="get">
+
+                            <label>Name:</label>
+                            <br>
+                            <input type="text" name="make" value="" />
+                            <br>
+                            <label>Address:</label>
+                            <br>
+                            <input type="text" name="model" value="" />
+                            <br>
+                            <label>City:</label>
+                            <br>
+                            <input type="text" name="color" value="" />
+                            <br>
+                            <label>State:</label>
+                            <br>
+                            <input type="text" name="year" value="" />
+                            <br>
+                            <label>Zip</label>
+                            <br>
+                            <input type="text" name="type" value="" />
+                            <br>
+                            <label>Phone:</label>
+                            <br>
+                            <input type="text" name="type" value="" />
+                            <br>
+                            <label>Email:</label>
+                            <br>
+                            <input type="text" name="type" value="" />
+                            <br><br>
+                            <div class="form-check">
+                                <label>Student Type:</label>
+                                <br>
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="stype" id="stype" value=" " checked>
+                                    Voice
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="stype" id="stype" value=" ">
+                                    Piano
+                                </label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="exampleSelect1">Student Level</label>
+                                <select class="form-control" id="level" value=" ">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                </select>
+                            </div>
+                            <br>
+                            <div class="form-check">
+                                <label>Gender:</label>
+                                <br>
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" " checked>
+                                    Male
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
+                                    Female
+                                </label>
+                            </div>
+
+                            <br><br>
+
+                            <input type="reset" name="reset" value="Clear" />
+                            <input type="submit" name="submit" value="Submit" />
+                        </form>
+                    </div> 
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="search" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Search Students</h4>
+
+                    <input type="text" name="search" placeholder="Search..">
+                    <br><br>
+                    <input type="submit" name="submit" value="Submit" />
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Call to Action -->
     <aside class="call-to-action bg-primary">
