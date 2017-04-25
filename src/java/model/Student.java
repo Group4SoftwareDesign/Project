@@ -34,7 +34,7 @@ public class Student {
         this.PhoneNum = "";
         this.Email = "";
         this.VoiceOrPiano = "";
-        this.Level = 1;
+        this.Level = 0;
         this.Gender = "";
      }  
     public Student(int StudentID, String Name, String Address, String City, String State, int ZipCode, String PhoneNum, String Email, String VoiceOrPiano,int Level, String Gender) {

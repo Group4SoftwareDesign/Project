@@ -52,7 +52,7 @@ public class Read extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        doPost (request, response);
+        doPost(request, response);
     }
 
     /**
@@ -71,6 +71,7 @@ public class Read extends HttpServlet {
         
         rq.doRead();
         String table = rq.getHTMLtable();
+        
         
         request.setAttribute("table", table);
         String url = "/read.jsp";
