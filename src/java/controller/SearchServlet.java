@@ -5,7 +5,7 @@
  */
 package controller;
 
-import dbHelpers.AddQuery;
+import dbHelpers.SearchQuery;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -14,14 +14,13 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.Student;
 
 /**
  *
  * @author Austin
  */
-@WebServlet(name = "AddServlet", urlPatterns = {"/addStudent"})
-public class AddServlet extends HttpServlet {
+@WebServlet(name = "SearchServlet", urlPatterns = {"/search"})
+public class SearchServlet extends HttpServlet {
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -40,10 +39,10 @@ public class AddServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet AddServlet</title>");            
+            out.println("<title>Servlet SearchServlet</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet AddServlet at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet SearchServlet at " + request.getContextPath() + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -62,7 +61,7 @@ public class AddServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-            doPost(request, response);
+            doPost(request,response);
     }
 
     /**
@@ -76,40 +75,20 @@ public class AddServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-       
-        String name = request.getParameter("name");
-        String address = request.getParameter("address");
-        String city = request.getParameter("city");
-        String state = request.getParameter("state");
-        int zip = Integer.parseInt(request.getParameter("zip"));
-        String phone = request.getParameter("phone");
-        String email = request.getParameter("email");
-        String voiceOrPiano = request.getParameter("voiceOrPiano");
-        String level = request.getParameter("level");
-        String gender = request.getParameter("gender");
         
-        Student s = new Student();
-        
-        s.setName(name);
-        s.setAddress(address);
-        s.setCity(city);
-        s.setState(state);
-        s.setZipCode(zip);
-        s.setPhoneNum(phone);
-        s.setEmail(email);
-        s.setVoiceOrPiano(voiceOrPiano);
-        s.setLevel(level);
-        s.setGender(gender);
-                
-        
-        AddQuery aq = new AddQuery();
-        
-        aq.doAdd(s);
-        
-        String url = "/read";
-        
-        RequestDispatcher dispatcher = request.getRequestDispatcher(url);
-        dispatcher.forward(request,response);
+            String s = request.getParameter("searchVal");
+            
+            SearchQuery sq = new SearchQuery();
+            
+            sq.doSearch(s);
+            String table = sq.getHTMLtable();
+            
+            request.setAttribute("table",table);
+            String url = "/read.jsp";
+            
+            RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+            dispatcher.forward(request,response);
+            
     }
 
     /**

@@ -59,11 +59,12 @@ public class AddQuery {
     
     public void doAdd(Student s){
         
+       
         try {
-            String query = "INSERT INTO Student (Name, Address, City, State, ZipCode, PhoneNum, Email, VoiceOrPiano, Level, Gender) VALUES (?,?,?,?,?,?,?,?,?,?,?)";
-            
+            String query = "INSERT INTO Student (Name, Address, City, State, ZipCode, PhoneNum, Email, VoiceOrPiano, Levels, Gender) VALUES (?,?,?,?,?,?,?,?,?,?)";
+         
             PreparedStatement ps = conn.prepareStatement(query);
-            
+         
             ps.setString(1,s.getName());
             ps.setString(2,s.getAddress());
             ps.setString(3,s.getCity());
@@ -72,12 +73,13 @@ public class AddQuery {
             ps.setString(6,s.getPhoneNum() );
             ps.setString(7,s.getEmail() );
             ps.setString(8,s.getVoiceOrPiano());
-            ps.setInt(9,s.getLevel());
+            ps.setString(9,s.getLevel());
             ps.setString(10,s.getGender());
             
             ps.executeUpdate();
         } catch (SQLException ex) {
             Logger.getLogger(AddQuery.class.getName()).log(Level.SEVERE, null, ex);
         }
+        
     }
 }

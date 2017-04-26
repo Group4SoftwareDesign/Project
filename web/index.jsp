@@ -327,94 +327,14 @@
 
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Add A Student</h4>
+                    <h4 class="modal-title">Add Students</h4>
                 </div>
                 <div class="modal-body">
-                    <p>
                     <div class="main">
-                        <form name="addForm" action="addStudent" method="get">
-
-                            <label>Name:</label>
-                            <br>
-                            <input type="text" name="name" value="" />
-                            <br>
-                            <label>Address:</label>
-                            <br>
-                            <input type="text" name="address" value="" />
-                            <br>
-                            <label>City:</label>
-                            <br>
-                            <input type="text" name="city" value="" />
-                            <br>
-                            <label>State:</label>
-                            <br>
-                            <input type="text" name="state" value="" />
-                            <br>
-                            <label>Zip</label>
-                            <br>
-                            <input type="text" name="zip" value="" />
-                            <br>
-                            <label>Phone:</label>
-                            <br>
-                            <input type="text" name="phone" value="" />
-                            <br>
-                            <label>Email:</label>
-                            <br>
-                            <input type="text" name="email" value="" />
-                            <br><br>
-                            <div class="form-check">
-                                <label>Student Type:</label>
-                                <br>
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" " checked>
-                                    Voice
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" ">
-                                    Piano
-                                </label>
-                            </div>
-                            <br>
-                            <div class="form-group">
-                                <label for="level">Student Level</label>
-                                <select class="form-control" id="level" value=" ">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                </select>
-                            </div>
-                            <br>
-                            <div class="form-check">
-                                <label>Gender:</label>
-                                <br>
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" " checked>
-                                    Male
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
-                                    Female
-                                </label>
-                            </div>
-
-                            <br><br>
-
-                            <input type="reset" name="reset" value="Clear" />
-                            <input type="submit" name="submit" value="Submit" />
-                        </form>
-                    </div> 
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <a href="add.jsp">Add A Student</a>
+                    </div>
                 </div>
             </div>
-
         </div>
     </div>
 
@@ -468,13 +388,13 @@
                                 <br>
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="stype" id="stype" value=" " checked>
-                                    Voice
+                                    V
                                 </label>
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="stype" id="stype" value=" ">
-                                    Piano
+                                    P
                                 </label>
                             </div>
                             <br>
@@ -493,13 +413,13 @@
                                 <br>
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="gender" id="gender" value=" " checked>
-                                    Male
+                                    M
                                 </label>
                             </div>
                             <div class="form-check">
                                 <label class="form-check-label">
                                     <input type="radio" class="form-check-input" name="gender" id="gender" value=" ">
-                                    Female
+                                    F
                                 </label>
                             </div>
 
@@ -522,106 +442,107 @@
 
     <!-- search modal -->
     <div class="modal fade" id="search" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-dialog">
+                <div class="modal-content">
 
 
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Search Students</h4>
-
-                    <input type="text" name="search" placeholder="Search..">
-                    <br><br>
-                    <input type="submit" name="submit" value="Submit" />
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- view modal -->
-    <div class="modal fade" id="view" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">View Students</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="main">
-                    <a href="read">View Students</a>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Search Students</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="main">
+                            <a href="search.jsp">Search Students</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-                    
 
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/affablebean">Tweets by affablebean</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <!-- view modal -->
+        <div class="modal fade" id="view" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">View Students</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="main">
+                            <a href="read">View Students</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </aside>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
-        <br />
-        <small>
-            <a href="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></a>
-        </small>
-    </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>The University of Iowa</strong>
-                    </h4>
-                    <p>21 E Market St
-                        <br>Iowa City, IA 52242</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+
+        <!-- Call to Action -->
+        <aside class="call-to-action bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/affablebean">Tweets by affablebean</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
                 </div>
             </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
+        </aside>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+        <!-- Map -->
+        <section id="contact" class="map">
+            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+            <br />
+            <small>
+                <a href="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></a>
+            </small>
+        </section>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <h4><strong>The University of Iowa</strong>
+                        </h4>
+                        <p>21 E Market St
+                            <br>Iowa City, IA 52242</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:name@example.com">name@example.com</a>
+                            </li>
+                        </ul>
+                        <br>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            </li>
+                        </ul>
+                        <hr class="small">
+                        <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                    </div>
+                </div>
+            </div>
+            <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+        </footer>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script>
                         // Closes the sidebar menu
                         $("#menu-close").click(function (e) {
                             e.preventDefault();
@@ -692,7 +613,7 @@
                         }
                         // Enable map zooming with mouse scroll when the user clicks the map
                         $('.map').on('click', onMapClickHandler);
-    </script>
+        </script>
 
 </body>
 
