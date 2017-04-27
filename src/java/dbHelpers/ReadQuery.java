@@ -137,6 +137,10 @@ public class ReadQuery {
                     table += s.getGender();
                     table += "</td>";
                     
+                    table += "<td>";
+                    table += "<a href=delete?StudentID=" + s.getStudentID() + "> Delete </a>";
+                    table += "</td>";
+                    
                     table += "</tr>";
                     
                     
