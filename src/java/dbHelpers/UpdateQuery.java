@@ -54,7 +54,7 @@ public class UpdateQuery {
     public void doUpdate (Student s){
         
         try {
-            String query = "UPDATE student SET name = ?, address = ?, city = ?, state = ?, zip = ?, phone = ?, email = ?, voiceOrPiano = ?, level = ?, gender = ? WHERE studentID = ?";
+            String query = "UPDATE student SET Name = ?, Address = ?, City = ?, State = ?, ZipCode = ?, PhoneNum = ?, Email = ?, VoiceOrPiano = ?, Levels = ?, Gender = ? WHERE StudentID = ?";
             
             PreparedStatement ps = conn.prepareStatement(query);
             
@@ -66,7 +66,7 @@ public class UpdateQuery {
             ps.setString(6,s.getPhoneNum() );
             ps.setString(7,s.getEmail() );
             ps.setString(8,s.getVoiceOrPiano());
-            ps.setInt(9,s.getLevel());
+            ps.setString(9,s.getLevel());
             ps.setString(10,s.getGender());
             ps.setInt(11,s.getStudentID());
             

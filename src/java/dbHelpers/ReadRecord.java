@@ -60,7 +60,7 @@ public class ReadRecord {
     public void doRead() {
     
         try {
-            String query = "SELECT * FROM Student WHERE studentID = ?";
+            String query = "SELECT * FROM Student WHERE StudentID = ?";
             
             PreparedStatement ps = conn.prepareStatement(query);
             
@@ -79,8 +79,9 @@ public class ReadRecord {
             s.setPhoneNum(this.results.getString("PhoneNum"));
             s.setEmail(this.results.getString("Email"));
             s.setVoiceOrPiano(this.results.getString("VoiceOrPiano"));
-            s.setLevel(this.results.getInt("Levels"));
+            s.setLevel(this.results.getString("Levels"));
             s.setGender(this.results.getString("Gender"));
+            
         } catch (SQLException ex) {
             Logger.getLogger(ReadRecord.class.getName()).log(Level.SEVERE, null, ex);
         }
