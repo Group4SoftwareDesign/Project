@@ -63,7 +63,7 @@ public class SearchQuery {
             String query = "SELECT * FROM Student WHERE UPPER(Name) LIKE ? OR PhoneNum LIKE ?";
             PreparedStatement ps = conn.prepareStatement(query);
             ps.setString(1, '%' + s.toUpperCase() + '%');
-            ps.setString(2, '%' + s + '%');
+            ps.setString(2, '%' + s.replaceAll("(),.-","") + '%');
             this.results = ps.executeQuery();
         } catch (SQLException ex) {
             Logger.getLogger(SearchQuery.class.getName()).log(Level.SEVERE, null, ex);
