@@ -50,7 +50,7 @@
                     <a href="#services" onclick=$("#menu-close").click();>Services</a>
                 </li>
                 <li>
-                    <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                    <a href="#map" onclick=$("#menu-close").click();>Location</a>
                 </li>
             </ul>
         </nav>
@@ -308,9 +308,11 @@
                     <!-- button to trigger add -->
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#view">View Students</button>
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#add">Add Student</button>
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#update">Update Student</button>
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#search">Search Student</button>
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#delete">Delete Student</button>
+                    
+                    <br><br>
+                    <h2>Contact</h2>
+                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#contact">Contact Me</button>
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -478,6 +480,47 @@
                 </div>
             </div>
         </div>
+        
+        
+        <div class="modal fade" id="contact" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Contact Page</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                    <div class="main">
+                        <form name="addForm" action="addCar" method="get">
+
+                            <label>Name:</label>
+                            <br>
+                            <input type="text" name="make" value="" />
+                            <br>
+                            <label>Email:</label>
+                            <br>
+                            <input type="text" name="type" value="" />
+                            <br>
+                            <label>Message:</label>
+                            <br>                          
+                            <input type="text" style="width: 75%; height: 100px;" class= "input-large">
+                            <br><br>
+                            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="">Clear</button>
+                            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="">Submit</button>
+                        </form>
+                    </div> 
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
 
@@ -493,8 +536,8 @@
         </aside>
 
         <!-- Map -->
-        <section id="contact" class="map">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+        <section id="map" class="map">
+            <iframe width="100%" height="100%"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.6491927073594!2d-91.53711968472703!3d41.66332098680681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e441f178969f6b%3A0x3f4fd5c31d76764f!2sUniversity+of+Iowa+Tippie+College+of+Business!5e0!3m2!1sen!2sus!4v1493307791545" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <br />
             <small>
                 <a href="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></a>

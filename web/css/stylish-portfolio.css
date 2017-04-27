@@ -259,3 +259,5 @@ footer {
 .notAvailable {
     background-color: lightcoral;
 }
+
+.input-mysize { width: 150px }

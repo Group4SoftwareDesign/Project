@@ -66,7 +66,7 @@ public class ReadQuery {
      public String getHTMLtable() {
 
         String table = "";
-        table += "<table border = 1>";
+        table += "<table class= table table-striped>";
 
 
             table += "<tr>";
@@ -135,6 +135,10 @@ public class ReadQuery {
                     
                     table += "<td>";
                     table += s.getGender();
+                    table += "</td>";
+                    
+                    table += "<td>";
+                    table += "<a href=delete?StudentID=" + s.getStudentID() + "> Delete </a>";
                     table += "</td>";
                     
                     table += "</tr>";
