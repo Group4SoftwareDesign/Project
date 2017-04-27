@@ -296,9 +296,7 @@
                     <!-- button to trigger add -->
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#view">View Students</button>
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#add">Add Student</button>
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#update">Update Student</button>
                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#search">Search Student</button>
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#delete">Delete Student</button>
                     
                     <br><br>
                     <h2>Contact</h2>
