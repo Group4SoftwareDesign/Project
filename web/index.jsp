@@ -50,7 +50,7 @@
                     <a href="#services" onclick=$("#menu-close").click();>Services</a>
                 </li>
                 <li>
-                    <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                    <a href="#map" onclick=$("#menu-close").click();>Location</a>
                 </li>
             </ul>
         </nav>
@@ -527,7 +527,7 @@
 
         <!-- Map -->
         <section id="map" class="map">
-            <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe>
+            <iframe width="100%" height="100%"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2980.6491927073594!2d-91.53711968472703!3d41.66332098680681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87e441f178969f6b%3A0x3f4fd5c31d76764f!2sUniversity+of+Iowa+Tippie+College+of+Business!5e0!3m2!1sen!2sus!4v1493307791545" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             <br />
             <small>
                 <a href="https://www.google.com/maps/embed/v1/place?q=University+of+Iowa+Tippie+College+of+Business,+East+Market+Street,+Iowa+City,+IA,+United+States&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></a>
