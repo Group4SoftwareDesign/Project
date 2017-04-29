@@ -79,286 +79,354 @@
                             <br><br>
                             <img src="img/logo.jpg" class="img-circle" alt="Myself" width="304" height="236">
                     </div>
-                    </p>
+
                 </div>
             </div>
             <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+            <!-- /.container -->
+        </section>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2>My Services</h2>
-                    <hr class="small">
-                    <div class="row">
-                        <div class="col-md-6 col-sd-3">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-music fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>Piano</strong>
-                                </h4>
-                                <p>I offer piano lessons for...etc.</p>
-                                <a href="#costs" class="btn btn-light">Learn More</a>
+        <!-- Services -->
+        <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+        <section id="services" class="services bg-primary">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-lg-offset-1">
+                        <h2>My Services</h2>
+                        <hr class="small">
+                        <div class="row">
+                            <div class="col-md-6 col-sd-3">
+                                <div class="service-item">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-music fa-stack-1x text-primary"></i>
+                                    </span>
+                                    <h4>
+                                        <strong>Piano</strong>
+                                    </h4>
+                                    <p>I offer piano lessons for...etc.</p>
+                                    <a href="#costs" class="btn btn-light">Learn More</a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6 col-sd-3">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-microphone fa-stack-1x text-primary"></i>
-                                </span>
-                                <h4>
-                                    <strong>Voice</strong>
-                                </h4>
-                                <p>I offer voice lessons for... etc.</p>
-                                <a href="#costs" class="btn btn-light">Learn More</a>
+                            <div class="col-md-6 col-sd-3">
+                                <div class="service-item">
+                                    <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-microphone fa-stack-1x text-primary"></i>
+                                    </span>
+                                    <h4>
+                                        <strong>Voice</strong>
+                                    </h4>
+                                    <p>I offer voice lessons for... etc.</p>
+                                    <a href="#costs" class="btn btn-light">Learn More</a>
+                                </div>
                             </div>
+
+                        </div>
+                        <!-- /.row (nested) -->
+                    </div>
+                    <!-- /.col-lg-10 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <!-- Costs -->
+        <section id="costs" class="costs">
+            <aside class="callout">
+                <div class="text-vertical-center">
+                    <h1>Lesson Costs:</h1>
+                    <br>
+                    <h2>Piano: $20/hr</h2>
+                    <br>
+                    <h2>Voice: $25/hr</h2>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <h2>Schedule</h2>
+
+                        <div class="container">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Times</th>
+                                        <th>Monday</th>
+                                        <th>Tuesday</th>
+                                        <th>Wednesday</th>
+                                        <th>Thursday</th>
+                                        <th>Friday</th>
+                                        <th>Saturday</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>9:30-10:00 (am)</td>
+                                        <td class="bg-danger"> Not Available </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-success"> Available </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>10:00-10:30 (am)</td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-success"> </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>10:30-11:00 (am)</td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:00-11:30 (am)</td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-success"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3:30-4:00 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>4:00-4:30 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4:30-5:00 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5:00-5:30 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5:30-6:00 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6:00-6:30 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6:30-7:00 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7:00-7:30 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7:30-8:00 (pm)</td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-success"> </td>
+                                        <td class="bg-danger"> </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
+                        <br><br><br>
+                        <h2>Teacher Options</h2>
+                        <!-- button to trigger add -->
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#view">View Students</button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#add">Add Student</button>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#search">Search Student</button>
+
+                        <br><br>
+                        <h2>Contact</h2>
+                        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#contact">Contact Me</button>
                     </div>
-                    <!-- /.row (nested) -->
+                    <!-- /.col-lg-10 -->
                 </div>
-                <!-- /.col-lg-10 -->
+                <!-- /.row -->
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+            <!-- /.container -->
+        </section>
 
-    <!-- Costs -->
-    <section id="costs" class="costs">
-        <aside class="callout">
-            <div class="text-vertical-center">
-                <h1>Lesson Costs:</h1>
-                <br>
-                <h2>Piano: $20/hr</h2>
-                <br>
-                <h2>Voice: $25/hr</h2>
-            </div>
-        </aside>
-    </section>
+        <!-- code for Modal (add) -->
+        <div class="modal fade" id="add" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Schedule</h2>
 
-                    <div class="container">
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Times</th>
-                                    <th>Monday</th>
-                                    <th>Tuesday</th>
-                                    <th>Wednesday</th>
-                                    <th>Thursday</th>
-                                    <th>Friday</th>
-                                    <th>Saturday</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>9:30-10:00 (am)</td>
-                                    <td class="bg-danger"> Not Available </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-success"> Available </td>
-
-                                </tr>
-                                <tr>
-                                    <td>10:00-10:30 (am)</td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-success"> </td>
-
-                                </tr>
-                                <tr>
-                                    <td>10:30-11:00 (am)</td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>11:00-11:30 (am)</td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-success"> </td>
-                                </tr>
-                                <tr>
-                                    <td>3:30-4:00 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-
-                                </tr>
-                                <tr>
-                                    <td>4:00-4:30 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>4:30-5:00 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>5:00-5:30 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>5:30-6:00 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>6:00-6:30 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>6:30-7:00 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>7:00-7:30 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                                <tr>
-                                    <td>7:30-8:00 (pm)</td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-success"> </td>
-                                    <td class="bg-danger"> </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Add A Student</h4>
                     </div>
+                    <div class="modal-body">
+                        <form name="addForm" action="addStudent" method="get">
 
-                    <br><br><br>
-                    <h2>Teacher Options</h2>
-                    <!-- button to trigger add -->
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#view">View Students</button>
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#add">Add Student</button>
-                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#search">Search Student</button>
-                    
-                    <br><br>
-                    <h2>Contact</h2>
-                     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#contact">Contact Me</button>
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
+                            <label>Name:</label>
+                            <br>
+                            <input type="text" name="name" value="" />
+                            <br>
+                            <label>Address:</label>
+                            <br>
+                            <input type="text" name="address" value="" />
+                            <br>
+                            <label>City:</label>
+                            <br>
+                            <input type="text" name="city" value="" />
+                            <br>
+                            <label>State:</label>
+                            <br>
+                            <input type="text" name="state" value="" />
+                            <br>
+                            <label>Zip</label>
+                            <br>
+                            <input type="text" name="zip" value="" />
+                            <br>
+                            <label>Phone:</label>
+                            <br>
+                            <input type="text" name="phone" value="" />
+                            <br>
+                            <label>Email:</label>
+                            <br>
+                            <input type="text" name="email" value="" />
+                            <br><br>
 
-    <!-- code for Modal (add) -->
-    <div class="modal fade" id="add" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
+                            <label>Student Type:</label>
+                            <br>
+
+                            <input type="radio" name="voiceOrPiano" id="V" value="V">
+                            V
+                            <input type="radio" name="voiceOrPiano" id="P" value="P">
+                            P
 
 
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Add Students</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="main">
-                        <a href="add.jsp">Add A Student</a>
+                            <br><br>
+                            <div class="form-group">
+                                <label> Student Level</label>
+                                <select class="form-control" name="level">
+                                    <option value = "1">1</option>
+                                    <option value = "2">2</option>
+                                    <option value = "3">3</option>
+                                    <option value = "4">4</option>
+                                </select>
+                            </div>
+                            <br>
+
+                            <label>Gender:</label>
+                            <br>
+
+                            <input type="radio" class="form-check-input" name="gender" id="male" value="M">
+                            M
+
+
+                            <input type="radio" class="form-check-input" name="gender" id="female" value="F">
+                            F
+
+
+
+                            <br><br>
+
+                            <input type="submit" name="submit" value="Submit" />
+                        </form>
+
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
-    <!-- update modal -->
-    <div class="modal fade" id="update" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
+        <!-- update modal -->
+        <div class="modal fade" id="update" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
 
 
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Update A Student</h4>
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Update A Student</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        <div class="main">
+                            <a href="updateForm.jsp">Update A Student</a>
+
+                        </div> 
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <p>
-                    <div class="main">
-                        <a href="updateForm.jsp">Update A Student</a>
-                        
-                    </div> 
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
+
             </div>
-
         </div>
-    </div>
 
 
-    <!-- search modal -->
-    <div class="modal fade" id="search" role="dialog">
+        <!-- search modal -->
+        <div class="modal fade" id="search" role="dialog">
+
+
             <div class="modal-dialog">
                 <div class="modal-content">
 
@@ -368,10 +436,18 @@
                         <h4 class="modal-title">Search Students</h4>
                     </div>
                     <div class="modal-body">
-                        <div class="main">
-                            <a href="search.jsp">Search Students</a>
-                        </div>
+
+
+                        <form name="searchForm" action="search" method="get">
+
+                            <input type="text" name="searchVal" placeholder="Search">
+                            <br><br>
+                            <input type="submit" name="submit" value="Submit" />
+
+
+                        </form>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -395,20 +471,20 @@
                 </div>
             </div>
         </div>
-        
-        
+
+
         <div class="modal fade" id="contact" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-dialog">
+                <div class="modal-content">
 
 
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Contact Page</h4>
-                </div>
-                <div class="modal-body">
-                    <p>
-                    <div class="main">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Contact Page</h4>
+                    </div>
+                    <div class="modal-body">
+
+
                         <form name="addForm" action="addCar" method="get">
 
                             <label>Name:</label>
@@ -422,20 +498,15 @@
                             <label>Message:</label>
                             <br>                          
                             <input type="text" style="width: 75%; height: 100px;" class= "input-large">
-                            <br><br>
-                            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="">Clear</button>
+                            <br><br>                        
                             <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="">Submit</button>
                         </form>
-                    </div> 
-                    </p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
 
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
 
 
 
@@ -573,6 +644,6 @@
                         $('.map').on('click', onMapClickHandler);
         </script>
 
-</body>
+    </body>
 
 </html>
