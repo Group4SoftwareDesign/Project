@@ -133,19 +133,8 @@
         <!-- /.container -->
     </section>
 
-    <!-- Callout -->
+    <!-- Costs -->
     <section id="costs" class="costs">
-<<<<<<< HEAD:WebApplication1/web/index.jsp
-    <aside class="callout">
-        <div class="text-vertical-center">
-            <h1>Lesson Costs:</h1>
-            <br>
-            <h2>Piano: $20/hr</h2>
-            <br>
-            <h2>Voice: $25/hr</h2>
-        </div>
-    </aside>
-=======
         <aside class="callout">
             <div class="text-vertical-center">
                 <h1>Lesson Costs:</h1>
@@ -155,7 +144,6 @@
                 <h2>Voice: $25/hr</h2>
             </div>
         </aside>
->>>>>>> 60e7647ce895ace19cee4f8cc5dc5249588f2c1b:web/index.jsp
     </section>
 
     <!-- Portfolio -->

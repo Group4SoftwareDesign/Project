@@ -70,7 +70,7 @@ public class ReadQuery {
 
 
             table += "<tr>";
-            table += "<th>ID</th><th>Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>PhoneNum</th><th>Email</th><th>VoiceOrPiano</th><th>Level</th><th>Gender</th>";
+            table += "<th>ID</th><th>Name</th><th>VoiceOrPiano</th><th>Level</th><th>Action</th>";
             table += "</tr>";
 
             
@@ -100,6 +100,7 @@ public class ReadQuery {
                     table += s.getName();
                     table += "</td>";
                     
+                    /*
                     table += "<td>";
                     table += s.getAddress();
                     table += "</td>";
@@ -123,7 +124,8 @@ public class ReadQuery {
                     table += "<td>";
                     table += s.getEmail();
                     table += "</td>";
-                    
+                    */
+
                     table += "<td>";
                     table += s.getVoiceOrPiano();
                     table += "</td>";
@@ -133,20 +135,18 @@ public class ReadQuery {
                     table += s.getLevel();
                     table += "</td>";
                     
+                    /*
                     table += "<td>";
                     table += s.getGender();
                     table += "</td>";
                     
+                    */
                     table += "<td>";
 
-                    table += "<a href=delete?StudentID=" + s.getStudentID() + "> Delete </a>";
-                    table += "</td>";
+                    //table += "<a href=delete?StudentID=" + s.getStudentID() + "> Delete </a>";
                     
-
-                    table += "<a href=update?studentID=" +s.getStudentID() + ">Update </a>" + "<a href=delete?";
+                    table += "<a href=update?studentID=" +s.getStudentID() + ">More Info </a>";
                     table += "</td>";
-                    
-                   
                     
 
                     table += "</tr>";

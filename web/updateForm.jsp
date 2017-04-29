@@ -10,15 +10,28 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Update A Student</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        
+         <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        
+        
+        
+        
     </head>
     <body>
-        <div class="main">
+        <div class="form-group-lg">
             <form name="updateForm" action="updateStudent" method="get">
                 
                 <label>ID:</label>
                 <br>
-                <input type="text" name="studentID" value=" <%= s.getStudentID() %> " />
+                <input type="text" name="studentID" value=" <%= s.getStudentID() %> "  />
                 <br>
                 <label>Name:</label>
                 <br>
@@ -51,18 +64,16 @@
                 <div class="form-check">
                     <label>Student Type:</label>
                     <br>
-                    <label class="form-check-label">
+                    
                         <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" <%= s.getVoiceOrPiano() %> ">
                         V
-                    </label>
-                    <label class="form-check-label">
                         <input type="radio" class="form-check-input" name="voiceOrPiano" id="stype" value=" <%= s.getVoiceOrPiano() %> ">
                         P
-                    </label>
+              
                 </div>
                 <br>
                 <div class="form-group">
-                    <label for="level">Student Level</label>
+                    <label>Student Level</label>
                     <select class="form-control" name="level">
                         <option value = "1">1</option>
                         <option value = "2">2</option>
@@ -71,23 +82,18 @@
                     </select>
                 </div>
                 <br>
-                <div class="form-check">
                     <label>Gender:</label>
-                    <br>
-                    <label class="form-check-label">
+                    <br>                    
                         <input type="radio" class="form-check-input" name="gender" id="gender" value="<%= s.getGender() %> ">
                         M
-                    </label>
-                    <label class="form-check-label">
                         <input type="radio" class="form-check-input" name="gender" id="gender" value=" <%= s.getGender() %> ">
                         F
-                    </label>
-                </div>
 
                 <br><br>
 
-                <input type="reset" name="reset" value="Clear" />
-                <input type="submit" name="update" value="Update" />
+                <a href= "delete?StudentID=<%= s.getStudentID()%>" class ="btn btn-default">Delete</a>
+                
+                <a href= "update?StudentID=<%= s.getStudentID() %>" class ="btn btn-default">Update</a>
             </form>
         </div> 
     </body>

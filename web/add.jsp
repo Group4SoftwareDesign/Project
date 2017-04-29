@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Add A New Dream Car</title>
+        <title>Add A Student</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
@@ -67,11 +67,11 @@
                     <label>Gender:</label>
                     <br>
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="gender" id="gender" value="M">
+                        <input type="radio" class="form-check-input" name="gender" id="male" value="M">
                         M
                     </label>
                     <label class="form-check-label">
-                        <input type="radio" class="form-check-input" name="gender" id="gender" value="F">
+                        <input type="radio" class="form-check-input" name="gender" id="female" value="F">
                         F
                     </label>
                 </div>

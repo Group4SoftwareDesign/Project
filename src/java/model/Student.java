@@ -147,7 +147,15 @@ public class Student {
 
    
     
-    
+    public String determineGender(String selectedGender){
+        
+        if (selectedGender.equals(Gender)){
+            return "checked";
+        } else {
+            return "";
+        }
+            
+    } 
    
     
 }
