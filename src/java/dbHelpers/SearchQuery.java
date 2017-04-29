@@ -72,14 +72,18 @@ public class SearchQuery {
 
     public String getHTMLtable() {
         String table = "";
+        
+        
         try {
-
-            table += "<table border = 1>";
-
+            
+            table += "<table class= table table-striped>";
+            
+            
             table += "<tr>";
-            table += "<th>ID</th><th>Name</th><th>Address</th><th>City</th><th>State</th><th>Zip</th><th>PhoneNum</th><th>Email</th><th>VoiceOrPiano</th><th>Level</th><th>Gender</th>";
+            table += "<th>ID</th><th>Name</th><th>VoiceOrPiano</th><th>Level</th><th>Action</th>";
             table += "</tr>";
-
+            
+            
             if (!this.results.isBeforeFirst()) {
                 table += "<tr>";
                 table += "<td colspan='7'> Sorry, this Make does not exist in the database</td>";
@@ -92,15 +96,8 @@ public class SearchQuery {
                     Student s = new Student();
                     s.setStudentID(this.results.getInt("StudentID"));
                     s.setName(this.results.getString("Name"));
-                    s.setAddress(this.results.getString("Address"));
-                    s.setCity(this.results.getString("City"));
-                    s.setState(this.results.getString("State"));
-                    s.setZipCode(this.results.getInt("ZipCode"));
-                    s.setPhoneNum(this.results.getString("PhoneNum"));
-                    s.setEmail(this.results.getString("Email"));
                     s.setVoiceOrPiano(this.results.getString("VoiceOrPiano"));
                     s.setLevel(this.results.getString("Levels"));
-                    s.setGender(this.results.getString("Gender"));
 
                     table += "<tr>";
                     table += "<td>";
@@ -112,30 +109,6 @@ public class SearchQuery {
                     table += "</td>";
 
                     table += "<td>";
-                    table += s.getAddress();
-                    table += "</td>";
-
-                    table += "<td>";
-                    table += s.getCity();
-                    table += "</td>";
-
-                    table += "<td>";
-                    table += s.getState();
-                    table += "</td>";
-
-                    table += "<td>";
-                    table += s.getZipCode();
-                    table += "</td>";
-
-                    table += "<td>";
-                    table += s.getPhoneNum();
-                    table += "</td>";
-
-                    table += "<td>";
-                    table += s.getEmail();
-                    table += "</td>";
-
-                    table += "<td>";
                     table += s.getVoiceOrPiano();
                     table += "</td>";
 
@@ -144,9 +117,10 @@ public class SearchQuery {
                     table += "</td>";
 
                     table += "<td>";
-                    table += s.getGender();
+                      
+                    table += "<a href=update?studentID=" +s.getStudentID() + ">More Info </a>";
                     table += "</td>";
-
+                    
                     table += "</tr>";
 
                 }

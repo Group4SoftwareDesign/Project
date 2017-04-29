@@ -81,15 +81,15 @@ public class ReadQuery {
                     Student s = new Student();
                     s.setStudentID(this.results.getInt("StudentID"));
                     s.setName(this.results.getString("Name"));
-                    s.setAddress(this.results.getString("Address"));
-                    s.setCity(this.results.getString("City"));
-                    s.setState(this.results.getString("State"));
-                    s.setZipCode(this.results.getInt("ZipCode"));
-                    s.setPhoneNum(this.results.getString("PhoneNum"));
-                    s.setEmail(this.results.getString("Email"));
+                    //s.setAddress(this.results.getString("Address"));
+                    //s.setCity(this.results.getString("City"));
+                    //s.setState(this.results.getString("State"));
+                    //s.setZipCode(this.results.getInt("ZipCode"));
+                    //s.setPhoneNum(this.results.getString("PhoneNum"));
+                    //s.setEmail(this.results.getString("Email"));
                     s.setVoiceOrPiano(this.results.getString("VoiceOrPiano"));
                     s.setLevel(this.results.getString("Levels"));
-                    s.setGender(this.results.getString("Gender"));
+                    //s.setGender(this.results.getString("Gender"));
                     
                     table += "<tr>";
                     table += "<td>";

@@ -26,9 +26,12 @@
          <a href= "index.jsp" class ="btn btn-default">Home</a>
     </div>
  
-
-        <h1>View Students!</h1>
-        <%= table %>
+    <div class="text-center"> 
+    <h1>View Students</h1>
+    </div>
+        
+        
+    <%= table %>
        
     </body>
 </html>

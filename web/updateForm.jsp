@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Update A Student</title>
+        <title>Student Information</title>
         
     <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,6 +27,11 @@
     <div class ="text-right">
          <a href= "index.jsp" class ="btn btn-default">Home</a>
     </div>    
+        
+    <div class="text-center">    
+    <h1> Student Information </h1>
+     </div>    
+    
        
         <div class="form-group-lg">
             <form name="updateForm" action="updateStudent" method="get">

@@ -21,7 +21,11 @@
     <div class ="text-right">
          <a href= "index.jsp" class ="btn btn-default">Home</a>
     </div>    
-       
+        
+    <div class="text-center">     
+    <h1> Search Students </h1>
+    </div>
+        
                 <div class="main">
                     <form name="searchForm" action="search" method="get">
 

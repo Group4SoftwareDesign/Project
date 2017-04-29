@@ -25,9 +25,11 @@
     <div class ="text-right">
          <a href= "index.jsp" class ="btn btn-default">Home</a>
     </div>    
-        
-        
-        <div class="main">
+    <div class="text-center">    
+    <h1> Add A Student </h1>
+     </div>
+    
+       
             <form name="addForm" action="addStudent" method="get">
 
                 <label>Name:</label>
@@ -99,6 +101,5 @@
                 <input type="reset" name="reset" value="Clear" />
                 <input type="submit" name="submit" value="Submit" />
             </form>
-        </div> 
     </body>
 </html>
