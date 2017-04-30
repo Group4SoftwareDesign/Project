@@ -77,17 +77,17 @@ public class UpdateServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
        
-        int studentID = Integer.parseInt(request.getParameter("StudentID"));
-        String name = request.getParameter("Name");
-        String address = request.getParameter("Address");
-        String city = request.getParameter("City");
-        String state = request.getParameter("State");
-        int zip = Integer.parseInt(request.getParameter("ZipCode"));
-        String phone = request.getParameter("PhoneNum");
-        String email = request.getParameter("Email");
-        String voiceOrPiano = request.getParameter("VoiceOrPiano");
-        String level = request.getParameter("Levels");
-        String gender = request.getParameter("Gender");
+        int studentID = Integer.parseInt(request.getParameter("studentID"));
+        String name = request.getParameter("name");
+        String address = request.getParameter("address");
+        String city = request.getParameter("city");
+        String state = request.getParameter("state");
+        int zip = Integer.parseInt(request.getParameter("zip"));
+        String phone = request.getParameter("phone");
+        String email = request.getParameter("email");
+        String voiceOrPiano = request.getParameter("voiceOrPiano");
+        String level = request.getParameter("level");
+        String gender = request.getParameter("gender");
         
          
         Student s = new Student();

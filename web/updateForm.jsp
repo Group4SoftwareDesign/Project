@@ -38,43 +38,43 @@
 
                 <label>ID:</label>
                 <br>
-                <input type="text" name="studentID" value=" <%= s.getStudentID()%> " readonly="True"  />
+                <input type="text" name="studentID" value="<%= s.getStudentID()%>" readonly="True"  />
                 <br>
                 <label>Name:</label>
                 <br>
-                <input type="text" name="name" value=" <%= s.getName()%> " />
+                <input type="text" name="name" value="<%= s.getName()%>" />
                 <br>
                 <label>Address:</label>
                 <br>
-                <input type="text" name="address" value=" <%= s.getAddress()%> " />
+                <input type="text" name="address" value="<%= s.getAddress()%>" />
                 <br>
                 <label>City:</label>
                 <br>
-                <input type="text" name="city" value=" <%= s.getCity()%> " />
+                <input type="text" name="city" value="<%= s.getCity()%>" />
                 <br>
                 <label>State:</label>
                 <br>
-                <input type="text" name="state" value=" <%= s.getState()%> " />
+                <input type="text" name="state" value="<%= s.getState()%>" />
                 <br>
                 <label>Zip</label>
                 <br>
-                <input type="text" name="zip" value=" <%= s.getZipCode()%> " />
+                <input type="text" name="zip" value="<%= s.getZipCode()%>" />
                 <br>
                 <label>Phone:</label>
                 <br>
-                <input type="text" name="phone" value=" <%= s.getPhoneNum()%> " />
+                <input type="text" name="phone" value="<%= s.getPhoneNum()%>" />
                 <br>
                 <label>Email:</label>
                 <br>
-                <input type="text" name="email" value=" <%= s.getEmail()%> " />
+                <input type="text" name="email" value="<%= s.getEmail()%>" />
                 <br><br>
 
                 <label>Student Type:</label>
                 <br>
 
-                <input type="radio" name="voiceOrPiano" id="V" value=" <%= s.getVoiceOrPiano()%> ">
+                <input type="radio" name="voiceOrPiano" id="V" value="<%= s.getVoiceOrPiano()%>">
                 V
-                <input type="radio"  name="voiceOrPiano" id="P" value=" <%= s.getVoiceOrPiano()%> ">
+                <input type="radio"  name="voiceOrPiano" id="P" value="<%= s.getVoiceOrPiano()%>">
                 P
 
 
@@ -91,16 +91,15 @@
                 <br>
                 <label>Gender:</label>
                 <br>                    
-                <input type="radio" name="gender" id="M" value="<%= s.getGender()%> ">
+                <input type="radio" name="gender" id="M" value="<%= s.getGender()%>">
                 M
-                <input type="radio" name="gender" id="F" value=" <%= s.getGender()%> ">
+                <input type="radio" name="gender" id="F" value="<%= s.getGender()%>">
                 F
 
                 <br><br>
 
                 <a href= "delete?StudentID=<%= s.getStudentID()%>" class ="btn btn-default">Delete</a>
-
-                <a href= "update?StudentID=<%= s.getStudentID()%>" class ="btn btn-default">Update</a>
+                <input type="submit" name="submit" value="Update" class = "btn btn-default"/>
             </form>
         </div> 
     </body>
