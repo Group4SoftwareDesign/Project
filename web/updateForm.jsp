@@ -72,30 +72,62 @@
                 <label>Student Type:</label>
                 <br>
 
-                <input type="radio" name="voiceOrPiano" id="V" value="<%= s.getVoiceOrPiano()%>">
+                <% if(s.getVoiceOrPiano().equals("V")) { %>
+                <input type="radio" name="voiceOrPiano" id="V" value="V" checked>
                 V
-                <input type="radio"  name="voiceOrPiano" id="P" value="<%= s.getVoiceOrPiano()%>">
+                <input type="radio"  name="voiceOrPiano" id="P" value="P">
                 P
-
-
+                <%} else if(s.getVoiceOrPiano().equals("P")) { %>
+                <input type="radio" name="voiceOrPiano" id="V" value="V">
+                V
+                <input type="radio"  name="voiceOrPiano" id="P" value="P" checked>
+                P
+                <% } %>
+                
                 <br><br>
                 <div class="form-group">
                     <label>Student Level</label>
                     <select class="form-control" name="level">
-                        <option value = "1">1</option>
+                  
+                <% if(s.getLevel().equals("1")) { %>  
+                        <option value = "1" selected>1</option>
                         <option value = "2">2</option>
                         <option value = "3">3</option>
                         <option value = "4">4</option>
+                <%} else if(s.getLevel().equals("2")) { %>
+                        <option value = "1">1</option>
+                        <option value = "2" selected>2</option>
+                        <option value = "3">3</option>
+                        <option value = "4">4</option>
+                <%} else if(s.getLevel().equals("3")) { %>
+                        <option value = "1">1</option>
+                        <option value = "2">2</option>
+                        <option value = "3" selected>3</option>
+                        <option value = "4">4</option>
+                <%} else if(s.getLevel().equals("4")) { %>
+                        <option value = "1">1</option>
+                        <option value = "2">2</option>
+                        <option value = "3">3</option>
+                        <option value = "4" selected>4</option>
+                <% } %>
                     </select>
                 </div>
                 <br>
                 <label>Gender:</label>
-                <br>                    
-                <input type="radio" name="gender" id="M" value="<%= s.getGender()%>">
+                <br>   
+                
+                <% if(s.getGender().equals("M")) { %>
+                <input type="radio" name="gender" id="M" value="M" checked>
                 M
-                <input type="radio" name="gender" id="F" value="<%= s.getGender()%>">
+                <input type="radio" name="gender" id="F" value="F">
                 F
-
+                <%} else if(s.getGender().equals("F")) { %>
+                <input type="radio" name="gender" id="M" value="M">
+                M
+                <input type="radio" name="gender" id="F" value="F" checked>
+                F
+                <% } %>
+                
                 <br><br>
 
                 <a href= "delete?StudentID=<%= s.getStudentID()%>" class ="btn btn-default">Delete</a>
