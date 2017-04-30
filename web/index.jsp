@@ -77,7 +77,11 @@
                         <p>
                             Nulla ante eros, dictum eget finibus sed, tristique nec ligula. Aenean viverra tortor massa, sit amet pharetra ante cursus at. Nulla aliquam tempor libero ut consequat. Aliquam dui velit, dapibus eu urna ac, convallis lobortis elit. Praesent semper fringilla diam, vitae dignissim nisi lobortis quis. Fusce ac magna orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus quis velit elit. Vivamus scelerisque ut mi ac auctor. Integer semper consequat nunc, non tincidunt ante accumsan ut. Sed laoreet pellentesque orci. Integer libero augue, feugiat porttitor lectus id, dapibus accumsan velit.
                             <br><br>
-                            <img src="img/logo.jpg" class="img-circle" alt="Myself" width="304" height="236">
+                            
+                            <img src="img/group.jpg" class="rounded float-right" alt="Group" width="200" height="236">
+                           
+                            <img src="img/logo.jpg" class="rounded float-left" alt="Myself" width="304" height="236">
+                            
                     </div>
 
                 </div>
