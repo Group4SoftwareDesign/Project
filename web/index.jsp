@@ -327,37 +327,37 @@
 
                             <label>Name:</label>
                             <br>
-                            <input type="text" name="name" value="" />
+                            <input type="text" name="name" value="" required/>
                             <br>
                             <label>Address:</label>
                             <br>
-                            <input type="text" name="address" value="" />
+                            <input type="text" name="address" value="" required/>
                             <br>
                             <label>City:</label>
                             <br>
-                            <input type="text" name="city" value="" />
+                            <input type="text" name="city" value="" required/>
                             <br>
                             <label>State:</label>
                             <br>
-                            <input type="text" name="state" value="" />
+                            <input type="text" name="state" value="" required/>
                             <br>
                             <label>Zip</label>
                             <br>
-                            <input type="text" name="zip" value="" />
+                            <input type="text" name="zip" value="" required/>
                             <br>
                             <label>Phone:</label>
                             <br>
-                            <input type="text" name="phone" value="" />
+                            <input type="text" name="phone" value="" required/>
                             <br>
                             <label>Email:</label>
                             <br>
-                            <input type="text" name="email" value="" />
+                            <input type="text" name="email" value="" required/>
                             <br><br>
 
                             <label>Student Type:</label>
                             <br>
 
-                            <input type="radio" name="voiceOrPiano" id="V" value="V">
+                            <input type="radio" name="voiceOrPiano" id="V" value="V" required>
                             V
                             <input type="radio" name="voiceOrPiano" id="P" value="P">
                             P
@@ -378,7 +378,7 @@
                             <label>Gender:</label>
                             <br>
 
-                            <input type="radio" class="form-check-input" name="gender" id="male" value="M">
+                            <input type="radio" class="form-check-input" name="gender" id="male" value="M" required>
                             M
 
 

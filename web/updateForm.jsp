@@ -42,31 +42,31 @@
                 <br>
                 <label>Name:</label>
                 <br>
-                <input type="text" name="name" value="<%= s.getName()%>" />
+                <input type="text" name="name" value="<%= s.getName()%>" required />
                 <br>
                 <label>Address:</label>
                 <br>
-                <input type="text" name="address" value="<%= s.getAddress()%>" />
+                <input type="text" name="address" value="<%= s.getAddress()%>" required/>
                 <br>
                 <label>City:</label>
                 <br>
-                <input type="text" name="city" value="<%= s.getCity()%>" />
+                <input type="text" name="city" value="<%= s.getCity()%>" required/>
                 <br>
                 <label>State:</label>
                 <br>
-                <input type="text" name="state" value="<%= s.getState()%>" />
+                <input type="text" name="state" value="<%= s.getState()%>" required/>
                 <br>
                 <label>Zip</label>
                 <br>
-                <input type="text" name="zip" value="<%= s.getZipCode()%>" />
+                <input type="text" name="zip" value="<%= s.getZipCode()%>" required/>
                 <br>
                 <label>Phone:</label>
                 <br>
-                <input type="text" name="phone" value="<%= s.getPhoneNum()%>" />
+                <input type="text" name="phone" value="<%= s.getPhoneNum()%>" required/>
                 <br>
                 <label>Email:</label>
                 <br>
-                <input type="text" name="email" value="<%= s.getEmail()%>" />
+                <input type="text" name="email" value="<%= s.getEmail()%>" required/>
                 <br><br>
 
                 <label>Student Type:</label>
